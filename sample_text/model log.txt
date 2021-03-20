@@ -1,0 +1,46 @@
+log pageview model:
+
+   timeCreate = 0
+   cookieCreate = 1 
+   browserCode = 2 
+   browserVer = 3
+   osCode = 4
+   osVer = 5
+   ip = 6 (kieu long)
+   locId = 7
+   domain = 8
+   siteId = 9
+   cId = 10
+   path = 11
+   referer = 12
+   guid = 13
+   flashVersion = 14
+   jre = 15
+   sr = 16
+   sc = 17
+   geographic = 18
+   category = 23
+   
+ kiểu dữ liệu:
+ 
+ 	  DateTime timeCreate; 
+	  int browserCode;
+	  String browserVer;
+	  String osName;
+	  int osCode;
+	  String osVer;
+	  long ip; // ip kieu long
+	  String domain;
+	  String path;
+	  DateTime cookieCreate; 
+	  long guid;
+	  int siteId;
+	  int cId;
+	  String referer;
+	  int geographic;
+	  int locId;
+	  String flashVersion;
+	  String jre;
+	  String sr;
+	  String sc;
+	  int category;
